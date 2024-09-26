@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Mulish:wght@500&display=swap');
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 20px 0;
+  background-color: #182c47;
+  color: #c1d1e8;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-page {
+  text-align: center;
+}
+
+.contact-page input, .contact-page textarea {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 500px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-page button {
+  padding: 10px 20px;
+  background-color: #5692e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

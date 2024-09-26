@@ -1,0 +1,65 @@
+.game-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0e1a2b; 
+  color: #c1d1e8;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;  
+  width: 100%;  
+  box-sizing: border-box;  
+  transition: max-height 0.3s ease;  
+  cursor: pointer;  
+}
+
+.game-info {
+  flex-grow: 1;
+  margin-right: 20px; 
+}
+
+.game-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.game-release-date {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.game-summary {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5em;
+  max-height: calc(3 * 1.5em);
+  color: #c1d1e8;
+  position: relative;
+  transition: max-height 0.3s ease; 
+  cursor: pointer; 
+}
+
+.game-summary:hover {
+  max-height: 500px; 
+  -webkit-line-clamp: unset; 
+}
+
+.game-rating {
+  background-color: #5692e8;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  line-height: 1;
+  flex-shrink: 0; 
+  margin-left: 20px; 
+
+}
